@@ -27,29 +27,32 @@ li {
 header h1 {
   text-align: center;
   margin: 2rem;
+  color: red;
 }
 
 .input-label {
   display: block;
   font-size: larger;
-  margin: 2rem 0px;
+  /* margin: 2rem 0px; */
   font-weight: 600;
+  color: #5cde0b;
 }
 
 .input {
   font-size: large;
-  display: block;
-  outline: #fff;
-  padding: 0.6rem 1rem;
-  margin: 1rem auto;
-  border: 2px solid var(--primary-color);
-  border-radius: 0.5rem;
-  width: 100%;
-  max-width: 325px;
+    display: block;
+    outline: #fff;
+    padding: 0.6rem 1rem;
+    margin: 1rem auto;
+    border: 2px solid #5cde0b;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 503px;
+    height: 53px;
 }
 
 .btn-check {
-  background: var(--primary-color);
+  background: #5cde0b;
   border: none;
   color: #fff;
   padding: 0.7rem 1rem;
@@ -59,12 +62,14 @@ header h1 {
   outline: #fff;
   margin: auto;
   display: block;
+  width: 300px;
 }
 
 .output {
   font-size: x-large;
   font-weight: 600;
   margin: 2rem 0;
+  color: #5cde0b;
 }
 
 /* Footer */
@@ -95,4 +100,12 @@ li {
 img {
   width: 40px;
   padding: 1rem 0.2rem;
+}
+
+.form_container{
+  border: 15px solid red;
+  max-width: 951px;
+  margin: auto;
+  padding: 20px;
+  height: 492px;
 }
